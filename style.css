@@ -40,13 +40,13 @@ html {
    position: absolute;
    top: 200px;
    height: 5000px;
-   width: 4998px;
+   width: 2000px;
  }
  
  .imgmenubt1 {
    position: absolute;
    top: 210px;
-   left: 200px;
+   left: 1945px;
    cursor: pointer;
    color: #007d3a;
    }
@@ -54,7 +54,7 @@ html {
    .imgmenubt2 {
    position: absolute;
    top: 210px;
-   left: 325px;
+   left: 1965px;
    cursor: pointer;
    color: #007d3a;
    }
@@ -62,7 +62,7 @@ html {
    .imgmenubt3 {
    position: absolute;
    top: 210px;
-   left: 4955px;
+   left: 1985px;
    cursor: pointer;
    color: #007d3a;
    }
@@ -70,7 +70,7 @@ html {
    .imgmenubt4 {
    position: absolute;
    top: 210px;
-   left: 4965px;
+   left: 2025px;
    cursor: pointer;
    color: #007d3a;
    }
@@ -78,7 +78,7 @@ html {
    .imgmenubt5 {
    position: absolute;
    top: 210px;
-   left: 4875px;
+   left: 2055px;
    cursor: pointer;
    color: #007d3a;
    }
@@ -86,7 +86,7 @@ html {
    .imgmenubt6 {
    position: absolute;
    top: 210px;
-   left: 4880px;
+   left: 2080px;
    cursor: pointer;
    color: #007d3a;
    }
