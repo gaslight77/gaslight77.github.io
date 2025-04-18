@@ -1,61 +1,173 @@
+
 html {
+   height: 100%;
+   width: 100%;
+ }
+ 
+ body {
+   height: 100%;
+   margin: 0;
+ }
+ 
+ .background {
+   position: absolute;
+   z-index: 1;
+ }
+ 
+ .bgtitle {
+   font-size: 50px;
+   text-align: center;
+   margin-top: 50px;
+ }
+ 
+ .textbox1 {
+   border: solid red 5px;
+   position: absolute;
+   top: 410px;
+   left: 180px;
+   width: 360px;
+   height: 200px;
+   padding: 10px;
+ }
+ 
+  img {
   height: 100%;
   width: 100%;
+  }
+ 
+ .menu {
+   border: solid #542915;
+   position: absolute;
+   top: 200px;
+   height: 500px;
+   width:95%;
+ }
+ 
+ .imgmenubt1 {
+   position: absolute;
+   top: 210px;
+   left: 200px;
+   cursor: pointer;
+   color: #007d3a;
+   }
+   
+   .imgmenubt2 {
+   position: absolute;
+   top: 210px;
+   left: 325px;
+   cursor: pointer;
+   color: #007d3a;
+   }
+   
+   .imgmenubt3 {
+   position: absolute;
+   top: 210px;
+   left: 375px;
+   cursor: pointer;
+   color: #007d3a;
+   }
+   
+   .imgmenubt4 {
+   position: absolute;
+   top: 210px;
+   left: 425px;
+   cursor: pointer;
+   color: #007d3a;
+   }
+   
+   .imgmenubt5 {
+   position: absolute;
+   top: 210px;
+   left: 475px;
+   cursor: pointer;
+   color: #007d3a;
+   }
+   
+   .imgmenubt6 {
+   position: absolute;
+   top: 210px;
+   left: 525px;
+   cursor: pointer;
+   color: #007d3a;
+   }
+ 
+ 
+ 
+ .tab1{
+   
+ }
+ 
+ 
+   
+   
+   
+   
+   
+  .tab2{
+     border: solid red 5px;
+    height: 455px;
+     width: 610px;
+     position: absolute;
+     top: 240px;
+     background-color: white;
+   } 
+   
+   
+   .tab3{
+     border: solid lime 5px;
+     height: 455px;
+     width: 610px;
+     position: absolute;
+     top: 240px;
+     background-color: white;
+   } 
+   
+   .tab4{
+     border: solid pink 5px;
+     height: 455px;
+     width: 610px;
+     position: absolute;
+     top: 240px;
+     background-color: white;
+   } 
+   
+   .tab5{
+     border: solid yellow 5px;
+     height: 455px;
+     width: 610px;
+     position: absolute;
+     top: 240px;
+     background-color: white;
+   } 
+   
+   .tab6{
+     border: solid orange 5px;
+     height: 455px;
+     width: 610px;
+     position: absolute;
+     top: 240px;
+     background-color: white;
+   } 
+   
+   
+   .photo1 {
+     height: 110px;
+     border: solid green 10px;
+     width: 110px;
+     position: absolute;
+     top: 280px;
+     left: 30px
+   }
+   
+   
+  
+  
+   
+   
+.showit {
+  display:block;
 }
 
-body {
-  height: 100%;
-  margin: 0;
+.hideit {
+  display: none;
 }
-
-.background {
-  z-index: -1;
-}
-
-
-
-
-.menu {
-  border: solid red;
-  position: absolute;
-  top: 200px;
-  height: 500px;
-  width:700px
-}
-
-.menubt {
-  position: absolute;
-  top: 210px;
-  left: 200px;
-  }
-  
-  .menubt2 {
-  position: absolute;
-  top: 210px;
-  left: 325px;
-  }
-  
-  .menubt3 {
-  position: absolute;
-  top: 210px;
-  left: 375px;
-  }
-  
-  .menubt4 {
-  position: absolute;
-  top: 210px;
-  left: 425px;
-  }
-  
-  .menubt5 {
-  position: absolute;
-  top: 210px;
-  left: 475px;
-  }
-  
-  .menubt6 {
-  position: absolute;
-  top: 210px;
-  left: 525px;
-  }
-
