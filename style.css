@@ -35,12 +35,14 @@ html {
   width: 100%;
   }
  
- .menu {
+.menu {
    border: solid #542915;
    position: absolute;
    top: 200px;
    height: 5000px;
-   width: 1220px;
+   width:1220px;
+   z-index: 2;
+   background-color: white;
  }
  
  .imgmenubt1 {
@@ -49,6 +51,7 @@ html {
    left: 400px;
    cursor: pointer;
    color: #007d3a;
+   z-index: 2;
    }
    
    .imgmenubt2 {
@@ -57,6 +60,7 @@ html {
    left: 625px;
    cursor: pointer;
    color: #007d3a;
+   z-index: 2;
    }
    
    .imgmenubt3 {
@@ -65,6 +69,7 @@ html {
    left: 675px;
    cursor: pointer;
    color: #007d3a;
+   z-index: 2;
    }
    
    .imgmenubt4 {
@@ -73,6 +78,7 @@ html {
    left: 725px;
    cursor: pointer;
    color: #007d3a;
+   z-index: 2;
    }
    
    .imgmenubt5 {
@@ -81,6 +87,7 @@ html {
    left: 775px;
    cursor: pointer;
    color: #007d3a;
+   z-index: 2;
    }
    
    .imgmenubt6 {
@@ -89,12 +96,13 @@ html {
    left: 825px;
    cursor: pointer;
    color: #007d3a;
+   z-index: 2;
    }
  
  
  
  .tab1{
-   
+   z-index: 3;
  }
  
  
@@ -106,63 +114,89 @@ html {
   .tab2{
      border: solid red 5px;
     height: 455px;
-     width: 610px;
+     width: 1543px;
      position: absolute;
      top: 240px;
      background-color: white;
+     z-index: 3;
    } 
    
    
    .tab3{
      border: solid lime 5px;
      height: 455px;
-     width: 610px;
+     width: 1010px;
      position: absolute;
      top: 240px;
      background-color: white;
+     z-index: 3;
    } 
    
    .tab4{
      border: solid pink 5px;
      height: 455px;
-     width: 610px;
+     width:  1543px;
      position: absolute;
      top: 240px;
      background-color: white;
+     z-index: 3;
    } 
    
    .tab5{
      border: solid yellow 5px;
      height: 455px;
-     width: 610px;
+     width:  1543px;
      position: absolute;
      top: 240px;
      background-color: white;
+     z-index: 3;
    } 
    
    .tab6{
      border: solid orange 5px;
      height: 455px;
-     width: 610px;
+     width:  1543px;
      position: absolute;
      top: 240px;
      background-color: white;
+     z-index: 3;
    } 
    
    
    .photo1 {
-     height: 110px;
+     height: 220px;
      border: solid green 10px;
-     width: 110px;
+     width:  220px;
      position: absolute;
      top: 280px;
-     left: 30px
+     left: 30px;
+     z-index: 3;
    }
    
    
+  .imgmenubt1:hover{
+   transform: scale(1.5);
+  }
   
+   .imgmenubt2:hover{
+   transform: scale(1.5);
+  }
   
-   
+  .imgmenubt3:hover{
+   transform: scale(1.5);
+  }
+  
+  .imgmenubt4:hover{
+   transform: scale(1.5);
+  }
+  
+  .imgmenubt5:hover{
+   transform: scale(1.5);
+  }
+  
+  .imgmenubt6:hover{
+   transform: scale(1.5);
+  }
    
 .showit {
   display:block;
