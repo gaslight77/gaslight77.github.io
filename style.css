@@ -28,6 +28,7 @@ html {
    width: 360px;
    height: 200px;
    padding: 10px;
+    z-index: 2;
  }
  
   img {
