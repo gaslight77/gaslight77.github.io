@@ -6,7 +6,7 @@ html {
  
  body {
    height: 100%;
-   margin: 0%;
+   margin: 0;
  }
  
  .background {
@@ -21,14 +21,136 @@ html {
  }
  
  .textbox1 {
-   border: solid red 5px;
+   border: solid white 5px;
    position: absolute;
-   top: 410px;
-   left: 180px;
-   width: 360px;
-   height: 200px;
+   top: 550px;
+   left: 290px;
+   width: 755px;
+   height: 400px;
    padding: 10px;
-    z-index: 2;
+   z-index: 2;
+ }
+ 
+ .textbox2{
+ border: solid white 5px;
+   position: absolute;
+   top: 150px;
+   left: 165px;
+   width: 755px;
+   height: 400px;
+   padding: 10px;
+   z-index: 2;  
+ }
+ 
+ .header1{
+   text-align: center;
+   font-size: 50px;
+   position: absolute;
+   top: 460px;
+   left: 300px;
+   z-index: 2;
+   border: solid white 5px;
+   width: 750px;
+ }
+ 
+ .header2{
+   text-align: center;
+   font-size: 50px;
+   position: absolute;
+   top: 70px;
+   left: 455px;
+ }
+ 
+ .header3{
+   text-align: center;
+   font-size: 50px;
+ }
+ 
+ .header4{
+   text-align: center;
+   font-size: 50px;
+ }
+ 
+ .header5{
+    text-align: center;
+   font-size: 50px;
+ }
+ 
+ .header6{
+    text-align: center;
+   font-size: 50px;
+ }
+ 
+ .extra1{
+   position: absolute;
+   border: solid white 5px;
+   height: 50px;
+   width: 320px;
+   top: 180px;
+   left: 770px;
+ }
+ 
+ .viinfo{
+   position: absolute;
+   border: solid white 5px;
+   height: 276px;
+   width: 520px;
+   top: 110px;
+   left: 300px;
+ }
+ 
+ .location1{
+   border: solid red 5px;
+   height: 190px;
+   width: 190px;
+   position: absolute;
+   top: 100px;
+   left: 130px;
+ }
+ 
+ .location2{
+    border: solid red 5px;
+   height: 190px;
+   width: 190px;
+   position: absolute;
+   top: 630px;
+   left: 130px;
+ }
+ 
+ .location3{
+    border: solid red 5px;
+   height: 190px;
+   width: 190px;
+   position: absolute;
+   top: 1090px;
+   left: 130px;
+ }
+ 
+ .locinfo1{
+    border: solid 5px;
+   height: 490px;
+   width: 590px;
+   position: absolute;
+   top: 100px;
+   left: 370px;
+ }
+ 
+ .locinfo2{
+   border: solid 5px;
+   height: 410px;
+   width: 590px;
+   position: absolute;
+   top: 630px;
+   left: 370px;
+ }
+ 
+ .locinfo3{
+   border: solid 5px;
+   height: 420px;
+   width: 590px;
+   position: absolute;
+   top: 1090px;
+   left: 370px;
  }
  
   img {
@@ -36,12 +158,84 @@ html {
   width: 100%;
   }
  
-.menu {
+ .pic1{
+   border: solid red 5px;
+   position: absolute;
+   top: 100px;
+   left: 50px;
+   height: 200px;
+   width: 200px;
+ }
+ 
+ .pic2{
+    border: solid red 5px;
+   position: absolute;
+   top: 100px;
+   left: 300px;
+   height: 200px;
+   width: 200px;
+ }
+ 
+ .pic3{
+    border: solid red 5px;
+   position: absolute;
+   top: 100px;
+   left: 550px;
+   height: 200px;
+   width: 200px;
+ }
+ 
+ .pic4{
+    border: solid red 5px;
+   position: absolute;
+   top: 100px;
+   left: 800px;
+   height: 200px;
+   width: 200px;
+ }
+ 
+ .pic5{
+    border: solid red 5px;
+   position: absolute;
+   top: 370px;
+   left: 50px;
+   height: 200px;
+   width: 200px;
+ }
+ 
+ .pic6{
+    border: solid red 5px;
+   position: absolute;
+   top: 370px;
+   left: 300px;
+   height: 200px;
+   width: 200px;
+ }
+ 
+ .pic7{
+    border: solid red 5px;
+   position: absolute;
+   top: 370px;
+   left: 550px;
+   height: 200px;
+   width: 200px;
+ }
+ 
+ .pic8{
+    border: solid red 5px;
+   position: absolute;
+   top: 370px;
+   left: 800px;
+   height: 200px;
+   width: 200px;
+ }
+ 
+ .menu {
    border: solid #542915;
    position: absolute;
    top: 200px;
    height: 5000px;
-   width:1520px;
+   width:1125px;
    z-index: 2;
    background-color: white;
  }
@@ -49,7 +243,7 @@ html {
  .imgmenubt1 {
    position: absolute;
    top: 210px;
-   left: 400px;
+   left: 500px;
    cursor: pointer;
    color: #007d3a;
    z-index: 2;
@@ -58,7 +252,7 @@ html {
    .imgmenubt2 {
    position: absolute;
    top: 210px;
-   left: 625px;
+   left: 715px;
    cursor: pointer;
    color: #007d3a;
    z-index: 2;
@@ -67,7 +261,7 @@ html {
    .imgmenubt3 {
    position: absolute;
    top: 210px;
-   left: 675px;
+   left: 775px;
    cursor: pointer;
    color: #007d3a;
    z-index: 2;
@@ -76,7 +270,7 @@ html {
    .imgmenubt4 {
    position: absolute;
    top: 210px;
-   left: 725px;
+   left: 825px;
    cursor: pointer;
    color: #007d3a;
    z-index: 2;
@@ -85,7 +279,7 @@ html {
    .imgmenubt5 {
    position: absolute;
    top: 210px;
-   left: 775px;
+   left: 880px;
    cursor: pointer;
    color: #007d3a;
    z-index: 2;
@@ -94,7 +288,7 @@ html {
    .imgmenubt6 {
    position: absolute;
    top: 210px;
-   left: 825px;
+   left: 950px;
    cursor: pointer;
    color: #007d3a;
    z-index: 2;
@@ -113,11 +307,12 @@ html {
    
    
   .tab2{
-     border: solid red 5px;
-    height: 455px;
-     width: 1543px;
+    border: solid red 5px;
+    height: 4939px;
+     width: 1114px;
+     left: 2px;
      position: absolute;
-     top: 240px;
+     top: 255px;
      background-color: white;
      z-index: 3;
    } 
@@ -125,40 +320,44 @@ html {
    
    .tab3{
      border: solid lime 5px;
-     height: 455px;
-     width: 1010px;
+     height: 4939px;
+     width: 1114px;
+     left: 2px;
      position: absolute;
-     top: 240px;
+     top: 255px;
      background-color: white;
      z-index: 3;
    } 
    
    .tab4{
      border: solid pink 5px;
-     height: 455px;
-     width:  1543px;
+     height: 4939px;
+     width: 1114px;
+     left: 2px;
      position: absolute;
-     top: 240px;
+     top: 255px;
      background-color: white;
      z-index: 3;
    } 
    
    .tab5{
      border: solid yellow 5px;
-     height: 455px;
-     width:  1543px;
+     height: 4939px;
+     width: 1114px;
+     left: 2px;
      position: absolute;
-     top: 240px;
+     top: 255px;
      background-color: white;
      z-index: 3;
    } 
    
    .tab6{
      border: solid orange 5px;
-     height: 455px;
-     width:  1543px;
+     height: 4939px;
+     width: 1114px;
+     left: 2px;
      position: absolute;
-     top: 240px;
+     top: 255px;
      background-color: white;
      z-index: 3;
    } 
@@ -198,11 +397,82 @@ html {
   .imgmenubt6:hover{
    transform: scale(1.5);
   }
+  
+  .t1{
+    position: absolute;
+    top: 235px;
+    left: 495px;
+    z-index: 2;
+  }
+  
+  .t2{
+    position: absolute;
+    top: 234px;
+    left: 705px;
+    z-index: 2;
+  }
+  
+  .t3{
+    position: absolute;
+    top: 235px;
+    left: 775px;
+    z-index: 2;
+  }
+  
+  .t4{
+    position: absolute;
+    top: 235px;
+    left: 815px;
+    z-index: 2;
+  }
+  
+  .t5{
+    position: absolute;
+    top: 235px;
+    left: 865px;
+    z-index: 2;
+  }
+  
+  .t6{
+    position: absolute;
+    top: 235px;
+    left: 935px;
+    z-index: 2;
+  }
+  
+ .mybox1 {
+   position: absolute;
+   top: 100px;
+   left: 99px;
+ }
    
-.showit {
-  display:block;
-}
-
-.hideit {
-  display: none;
-}
+ .mybox2 {
+   position: absolute;
+   top: 130px;
+   left: 50px;
+ }  
+   
+ .mybox3 {
+   position: absolute;
+   top: 160px;
+   left: 78px;
+ }
+ 
+ .mybox4 {
+   position: absolute;
+   top: 190px;
+   left: 60px;
+ }
+   
+   .myb {
+     position: absolute;
+     top: 220px;
+     left: 230px;
+   }
+   
+   .here3{
+     position: absolute;
+     top: 250px;
+     left: 230px;
+     text-align: center;
+   }
