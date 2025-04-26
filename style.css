@@ -476,3 +476,11 @@ html {
      left: 230px;
      text-align: center;
    }
+
+.showit {
+  display:block;
+}
+
+.hideit {
+  display: none;
+}
